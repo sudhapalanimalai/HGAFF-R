@@ -247,3 +247,7 @@ results/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Allow outputs folder for HGAFF-R results
+!outputs/
+!outputs/**
