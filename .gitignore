@@ -216,3 +216,34 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# ==============================
+# HGAFF-R Custom Rules
+# ==============================
+
+# Dataset files (never commit raw data)
+data/
+*.csv
+*.zip
+*.gz
+*.parquet
+
+# Trained model files
+outputs/
+*.pkl
+*.pt
+*.pth
+*.cbm
+*.bin
+*.h5
+
+# SHAP / results
+*.npy
+*.npz
+results/
+
+# Colab notebooks (optional - remove if you want to save notebooks)
+*.ipynb
+
+# OS files
+.DS_Store
+Thumbs.db
